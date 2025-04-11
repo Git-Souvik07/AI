@@ -4,7 +4,7 @@ const promptInput = document.querySelector(".prompt-input");
 const imageGallery = document.querySelector(".image-gallery");
 
 
-const KEY = `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`; 
+const KEY = `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`; 
 let isImageGenerating = false;
 
 const updateImageCard = (srcUrl) => {
