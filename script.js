@@ -26,7 +26,7 @@ const updateImageCard = (srcUrl) => {
 
 async function query() {
 	const response = await fetch(
-		"https://router.huggingface.co/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0",
+		"https://router.huggingface.co/hf-inference/models/cloudqi/cqi_text_to_image_pt_v0",
 		{
 			headers: {
 				Authorization: `Bearer ${KEY}`,
